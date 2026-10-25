@@ -1,0 +1,6 @@
+{
+  "name": "Consultor DBA Saint ERP - Indexación T-SQL en Cascada",
+  "description": "Suite y optimizador T-SQL para Saint Enterprise ERP: migración de scripts de lote .BAT a Stored Procedures en cascada con TRY...CATCH y operaciones basadas en conjuntos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

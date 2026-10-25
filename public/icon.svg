@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background with rounded squircle safe zone -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  
+  <!-- Subtle inner border -->
+  <rect x="16" y="16" width="480" height="480" rx="98" fill="none" stroke="#10b981" stroke-width="6" stroke-opacity="0.3"/>
+
+  <!-- Database Cylinders -->
+  <g transform="translate(106, 95)" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top Cylinder -->
+    <ellipse cx="150" cy="50" rx="150" ry="45" fill="#065f46" stroke="#34d399"/>
+    
+    <!-- Middle Tier 1 -->
+    <path d="M0,50 v80 c0,25 67,45 150,45 c83,0 150,-20 150,-45 v-80" fill="#047857" stroke="#10b981"/>
+    
+    <!-- Middle Tier 2 -->
+    <path d="M0,130 v80 c0,25 67,45 150,45 c83,0 150,-20 150,-45 v-80" fill="#064e3b" stroke="#34d399"/>
+    
+    <!-- Bottom Tier -->
+    <path d="M0,210 v80 c0,25 67,45 150,45 c83,0 150,-20 150,-45 v-80" fill="#022c22" stroke="#10b981"/>
+  </g>
+  
+  <!-- Exchange / Indexation Badge -->
+  <circle cx="360" cy="360" r="95" fill="#0f172a" stroke="#34d399" stroke-width="12"/>
+  <path d="M315,360 h90 M375,330 l30,30 l-30,30 M405,360 h-90 M345,390 l-30,-30 l30,-30" fill="none" stroke="#34d399" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
